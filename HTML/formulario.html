@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+
+            <legend>Formulario</legend><!-- "Titulo do fieldset" -->
+
+            <div><input type="text" name="nome" placeholder="Digite seu nome"> <!-- input de nome --></div>
+
+            <div><input type="text" name="e-mail" placeholder="Digite seu e-mail"> <!-- input de e-mail --></div>
+
+            <div>
+                <select name="lista">
+
+                    <option disabled selected>Qual a sua idade?</option>
+
+                    <option>20</option>
+                    <option>20+</option>
+                    <option>40+</option>
+
+                </select>
+
+            </div><!-- boxs de seleçãode idade-->
+
+            <h2>Qual sua cidade?</h2>
+
+            <div class="radio-input">
+
+                <div><input type="radio" value="florianopolis" name="cidade"><span>Florianopolis</span></div>
+
+                <div><input type="radio" value="uba" name="cidade"><span>UBA</span></div>
+
+                <div><input type="radio" value="BH" name="cidade"><span>BH</span></div>
+
+            </div><!-- boxs de seleçãode cidade-->
+
+
+            <h2>Comida favorita</h2>
+
+            <div class="radio-input">
+
+                <div><input type="checkbox"> <span>Frutas</span> </div>
+
+                <div><input type="checkbox"> <span>Fast food</span> </div>
+
+                <div> <input type="checkbox"> <span> Churrasco</span> </div>
+
+            </div><!-- boxs de seleçãode comida-->
+
+            <h2>Deixe uma opnião</h2>
+
+            <textarea placeholder="Sua opinião"></textarea><!-- caixa de sugestão -->
+
+            <div><input type="submit" name="acao" value="Enviar"><!-- Boton de enviar -->
+
+        </fieldset><!-- Agrupamento dos elementos -->
+
+    </form><!-- fomulario -->
+</body>
+
+</html>
